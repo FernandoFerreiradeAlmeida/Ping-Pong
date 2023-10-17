@@ -1,45 +1,41 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: cursive;
-  }
- 
-  body {
-    height: 100vh;
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    background-color: #aaa;
+}
+#dvPainel{
     display: flex;
+    height: 50px;
     align-items: center;
-    justify-content: center;
-    background: #f7f7f7;
-  }
- 
-  main {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-  }
- 
-  h1 {
-    text-align: center;
-  }
- 
-  hr {
-    font-weight: bold;
-    height: 3px;
-    background: black;
-    margin-bottom: 10px;
-  }
- 
-  .game {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
- 
-  .game button {
-    width: 100px;
-    height: 100px;
+}
+.itemPainel{
     margin: 5px;
-    cursor: pointer;
-    font-size: 50px;
-    background: #f7f7f7;
-  }
+}
+#dvJogo{
+    width: 960px;
+    height: 500px;
+    border: 1px solid #000;
+    background-color: #000;
+}
+#dvBola{
+    position: absolute;
+    top: 240px;
+    left: 475px;
+    width: 20px;
+    height: 20px;
+    background-color: #8888;
+}
+.barra{
+    position: absolute;
+    width: 20px;
+    height: 140px;
+    background-color: #888;
+    top: 180px;
+}
+.esquerda{
+    left: 10px;
+}
+.direita{
+    left: 930px;
+}
